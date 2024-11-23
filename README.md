@@ -8,21 +8,28 @@ Building a user-friendly application that allows seamless interaction with a lar
 
 ### DESIGN STEPS:
 
-#### STEP 1: Import Required Libraries
-Install and import libraries like Gradio for UI design and Transformers for using open-source pre-trained models.
-Ensure all dependencies are installed and configured.
+### **STEP 1: Import Required Libraries**
+- Install and import the necessary libraries:
+  - **Gradio** for the UI.
+  - **Transformers** for using pre-trained models.
 
-#### STEP 2: Load a Pre-Trained Model
-Use a model like GPT-2 or DialoGPT from the Hugging Face Model Hub.
-Initialize the model using the pipeline API to simplify interaction
+### **STEP 2: Load a Pre-Trained Model**
+- Use a pre-trained model like **GPT-2** or **DialoGPT** from Hugging Face.
+- Initialize the model using the `pipeline` API for straightforward interaction.
 
-#### STEP 3: Define the Application Workflow
-Create a function to process user input, send it to the model, and return the response.
-Design the user interface using Gradio Blocks, adding input/output components and interactivity.
+### **STEP 3: Define Application Workflow**
+- Create a function to:
+  1. Process user input.
+  2. Pass it to the language model.
+  3. Return the generated response.
+  
+- Design the user interface using Gradio Blocks, adding components for input, output, and interactivity.
 
-#### STEP 4: Launch and Deploy
-Use demo.launch() to host the application locally.
-Optionally deploy it to cloud platforms for public access.
+### **STEP 4: Deploy the Application**
+- Run the application locally with `demo.launch()`.
+- Optionally deploy it to the cloud for broader accessibility.
+
+---
 
 ### PROGRAM:
 ```py
